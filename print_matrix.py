@@ -1,0 +1,29 @@
+def print_matrix (MX, x, y):
+  #FUNCTION DO PRINT THE MATRIX WITH 2 LOOPS
+  for i in range (0, x):
+    for j in range(0, y):
+      print(MX[i][j], end=' ')
+    print('')
+  
+x = int(input('Type the number of lines: '))
+y = int(input('Type the number of columns: '))
+#READING THE NUMBER OF LINES AND COLUMNS PROVIDED BY THE USER
+
+MX = MY = []
+#CREATING TWO EMPTY LISTS 
+#MX WILL BE THE LIST OF LINES
+#MY WILL BE THE LIST OF COLUMNS
+
+for i in range (0, x):
+  MY = []
+  #TURNING MY EMPTY AGAIN
+  for j in range(0, y):
+    MY.append(0)
+    #ADDING ZEROES TO THE LIST OF COLUMNS, BUT CAN BE OTHER NUMBERS
+  MX.append(MY)
+  #ADDING ALL THE COLUMNS FOR THE LIST OF LINES
+
+#NOW, MX IS THE COMPLETE MATRIX, WITH ALL THE ELEMENTS, BECAUSE WE ADDED ALL THE LISTS OF COLUMNS AT THE LIST OF LINES
+#TO PRINT THE MATRIX, WE ONLY NEED THE MATRIX ITSELF, THE NUMBER OF LINES AND THE NUMBER OF COLUMNS
+print_matrix(MX, x, y)
+#PRINTING THE MATRIX WITH THE FUNCTION print_matrix
