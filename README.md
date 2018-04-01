@@ -1,2 +1,2 @@
-# print_matrix
-Simple form to creat and print a matrix. 
+# random_codes
+Pieces of code that someday may be useful. 
