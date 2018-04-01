@@ -3,6 +3,7 @@ def reverse_bin(x):
   for i in range(len(x)-1, -1, -1):
     bin+=x[i]
   return bin
+
 def first (x):
   bin = ''
   while x>=1:
