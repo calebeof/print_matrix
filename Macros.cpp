@@ -16,6 +16,10 @@
 #define loop(n) for(int i=0; i<n; i++)
 #define LOOP(k,n) for(int i=k; i<n; i++)
 #define POOL(k,n) for(int i=k; i>=n; i--)
+#define FIND(v, value) find(v.begin(), v.end(), value)
+#define SORT(v) sort(v.begin(), v.end())
+#define SORTC(v, comp) sort(v.begin(), v.end(), comp)
+#define EOF while (true)
 #define INF INT_MAX
 #define TAM 1000000
 #define endl '\n'
