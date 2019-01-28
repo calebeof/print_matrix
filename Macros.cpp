@@ -16,6 +16,8 @@
 #define loop(n) for(int i=0; i<n; i++)
 #define LOOP(k,n) for(int i=k; i<n; i++)
 #define POOL(k,n) for(int i=k; i>=n; i--)
+#define INF INT_MAX
+#define TAM 1000000
 #define endl '\n'
 
 using namespace std;
