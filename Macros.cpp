@@ -1,9 +1,11 @@
-#define TEMPLATE_VERSION "v0.1 01/02/2019"
+
+#define TEMPLATE_VERSION "v0.2 06/03/2019"
 #include <bits/stdc++.h>
 
-#define MOD 1000000007LL
-#define INF INT_MAX
-#define LINF LL_MAX
+#define MOD (1000000007LL)
+#define INF (INT_MAX)
+#define LINF (LL_MAX)
+#define TAM (1000000)
 #define LL long long int 
 #define ULL unsigned long long int
 #define LD long double
@@ -30,13 +32,14 @@
 #define SORT( v ) sort(v.begin(), v.end())
 #define SORTC(v, comp) sort(v.begin(), v.end(), comp)
 #define WW( x ) cout<<#x<<" = "<<(x)<<"\n";
-#define TAM (1000000)
 #define endl '\n'
 
 using namespace std;
 
 int main () {
   ios_base::sync_with_stdio(false);
+  //freopen("input.txt", "r+", stdin);
+  //freopen("output.txt", "w+", stdout);
   cout << setprecision(2) << fixed;
   return 0;
 }
