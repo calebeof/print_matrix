@@ -3,7 +3,7 @@
 
 #define MOD (1000000007LL)
 #define INF (INT_MAX)
-#define LINF (LL_MAX)
+#define LINF (LLONG_MAX)
 #define TAM (1000000)
 #define LL long long int 
 #define ULL unsigned long long int
@@ -18,6 +18,7 @@
 #define pqi priority_queue<int>
 #define pii pair<int, int> 
 #define vii vector<pii>
+#define vvi vector<vi> 
 #define vvii vector<vii>
 #define pb push_back
 #define mp make_pair
