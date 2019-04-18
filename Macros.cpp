@@ -18,7 +18,7 @@
 #define pqi priority_queue<int>
 #define pii pair<int, int> 
 #define vii vector<pii>
-#define vvi vector<vi> 
+#define vvi vector<vi>
 #define vvii vector<vii>
 #define pb push_back
 #define mp make_pair
@@ -36,10 +36,14 @@
 
 using namespace std;
 
+//compile: g++ -D _DEBUG [arquivo.cpp] -o [arquivo] && ./[arquivo]
+
 int main () {
   ios_base::sync_with_stdio(false);
-  //freopen("input.txt", "r+", stdin);
-  //freopen("output.txt", "w+", stdout);
+  #ifdef DEBUG
+    freopen("input.txt", "r+", stdin);
+    freopen("output.txt", "w+", stdout);
+  #endif 
   cout << setprecision(2) << fixed;
   return 0;
 }
