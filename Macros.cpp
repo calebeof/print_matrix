@@ -36,7 +36,7 @@
 
 using namespace std;
 
-//compile: g++ -D _DEBUG [arquivo.cpp] -o [arquivo] && ./[arquivo]
+//compile: g++ -D DEBUG [arquivo.cpp] -o [arquivo] && ./[arquivo]
 
 int main () {
   ios_base::sync_with_stdio(false);
