@@ -36,14 +36,9 @@
 
 using namespace std;
 
-//compile: g++ -D DEBUG [arquivo.cpp] -o [arquivo] && ./[arquivo]
+//compile: g++ -D DEBUG [arquivo.cpp] -o [arquivo] && ./[arquivo] < input.txt > output.txt
 
 int main () {
   ios_base::sync_with_stdio(false);
-  #ifdef DEBUG
-    freopen("input.txt", "r+", stdin);
-    freopen("output.txt", "w+", stdout);
-  #endif 
-  cout << setprecision(2) << fixed;
   return 0;
 }
