@@ -1,4 +1,4 @@
-#define TEMPLATE_VERSION "v0.2 15/10/2020"
+#define TEMPLATE_VERSION "v0.2 19/10/2020"
 #include <bits/stdc++.h>
 
 #define MOD (1000000007LL)
